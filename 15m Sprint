@@ -1,0 +1,286 @@
+#NoEnv
+SetWorkingDir %A_ScriptDir%
+CoordMode, Mouse, Window
+SendMode Input
+#SingleInstance Force
+SetTitleMatchMode 2
+#WinActivateForce
+SetControlDelay 1
+SetWinDelay 0
+SetKeyDelay -1
+SetMouseDelay 1
+SetBatchLines -1
+
+
+15min_runner:
+Loop
+{
+    Sleep, 4500
+    Click, 265, 212 Left, 1  ; GP tab - Possible loop
+    Sleep, 850
+    SendEvent, {Click, 810, 467, Left Down}{Click, 634, 466, Left Up}  ; No creating boni
+    Sleep, 850
+    SendEvent, {Click, 760, 414, Left Down}{Click, 864, 414, Left Up}  ; Mystic Boni
+    Sleep, 850
+    Click, 263, 225 Left, 1  ; Exit gp tab
+    Sleep, 850
+    Click, 444, 219 Left, 1  ; OTHER
+    Sleep, 850
+    Click, 537, 225 Left, 1  ; Statistics
+    Sleep, 850
+    Click, 202, 305 Left, 1  ; REBIRTH
+    Sleep, 2400
+    Click, 207, 668 Left, 1  ; Rebirth option
+    Sleep, 850
+    Click, 130, 536 Left, 1  ; Rebirth confirm
+    Sleep, 850
+    Sleep, 1500
+    Click, 439, 177 Left, 1  ; TRAIN
+    Sleep, 850
+    Click, 647, 219 Left, 1  ; Skills tab
+    Sleep, 850
+    Click, 797, 401 Right, 1
+    Sleep, 850
+    Click, 552, 218 Left, 1  ; Physical tab
+    Sleep, 850
+    Click, 800, 400 Right, 1
+    Sleep, 850
+    Click, 384, 215 Left, 1  ; FIGHT
+    Sleep, 850
+    Click, 548, 220 Left, 1  ; Monster tab
+    Sleep, 850
+    Click, 799, 404 Right, 1
+    Sleep, 850
+    Click, 643, 218 Left, 1  ; Gods tab
+    Sleep, 850
+    Loop, 30
+    {
+        Click, 816, 318 Left, 1
+        Sleep, 120
+    }
+    Click, 111, 297 Left, 1  ; STATS
+    Sleep, 850
+    Click, 377, 220 Left, 1  ; SPECIAL FIGHTS - FIGHT
+    Sleep, 800
+    Click, 754, 221 Left, 1  ; Special
+    Sleep, 800
+    Click, 739, 450 Left, 1  ; Auto
+    Sleep, 800
+    Loop, 40
+    {
+        Click, 857, 400 Left, 1
+        Sleep, 7
+        Click, 433, 487 Left, 1
+        Sleep, 650
+        Click, 597, 483 Left, 1
+        Sleep, 650
+        Click, 585, 361 Left, 1
+        Sleep, 7
+    }
+    Click, 379, 264 Left, 1  ; Flee
+    Sleep, 800
+    Click, 739, 450 Left, 1  ; SPECIAL FIGHTS - Auto
+    Sleep, 800
+    Click, 379, 177 Left, 1  ; BUILD
+    Sleep, 850
+    Click, 544, 220 Left, 1  ; Create
+    Sleep, 850
+    Click, 836, 672 Left, 1  ; Tree
+    Sleep, 850
+    Click, WheelDown, 3
+    Sleep, 10
+    SendEvent, {Click, 538, 307, Left Down}{Click, 354, 305, Left Up}
+    Sleep, 850
+    Click, 933, 311 Left, 1  ; Creation auto-buy
+    Sleep, 850
+    Click, 929, 278 Left, 1  ; Create clones if not max
+    Sleep, 850
+    Click, 840, 640 Left, 1  ; Mountain
+    Sleep, 1650
+    Click, 826, 577 Left, 1  ; Human
+    Sleep, 1650
+    Click, 929, 283 Left, 1  ; Create clones if not max
+    Sleep, 1150
+    SendEvent, {Click, 402, 298, Left Down}{Click, 562, 296, Left Up}
+    Sleep, 150
+    Click, 921, 305 Left, 1  ; Auto buy off
+    Sleep, 850
+    Click, 643, 219 Left, 1  ; Monuments
+    Sleep, 850
+    Click, 558, 310 Left, 1  ; Stop after finish
+    Sleep, 850
+    Click, 949, 270 Left, 1  ; MAX Clones
+    Sleep, 850
+    Click, 847, 400 Left, 1  ; + Mighty Statue
+    Sleep, 850
+    Click, 848, 479 Left, 1  ; + Mystic Gardens
+    Sleep, 1000
+    Click, 849, 557 Left, 1  ; + Tomb of Gods
+    Sleep, 3500
+    Click, 848, 645 Left, 1  ; + Everlasting Lighthouse
+    Sleep, 8000
+    Click, WheelDown, 4
+    Sleep, 10
+    Click, 840, 503 Left, 1  ; + Godly Statue
+    Sleep, 12000
+    Click, 847, 578 Left, 1  ; + Pyramids of power
+    Sleep, 20000
+    Click, 860, 654 Left, 1  ; + Temple of God
+    Sleep, 850
+    Click, 377, 220 Left, 1  ; SPECIAL FIGHTS - FIGHT
+    Sleep, 800
+    Click, 754, 221 Left, 1  ; Special
+    Sleep, 800
+    Click, 739, 450 Left, 1  ; Auto
+    Sleep, 800
+    Loop, 45
+    {
+        Click, 857, 400 Left, 1
+        Sleep, 7
+        Click, 433, 487 Left, 1
+        Sleep, 650
+        Click, 597, 483 Left, 1
+        Sleep, 650
+        Click, 585, 361 Left, 1
+        Sleep, 7
+    }
+    Click, 379, 264 Left, 1  ; Flee
+    Sleep, 800
+    Click, 739, 450 Left, 1  ; SPECIAL FIGHTS - Auto
+    Sleep, 800
+    Click, 379, 177 Left, 1  ; BUILD
+    Sleep, 850
+    Click, 746, 215 Left, 1  ; Divinity
+    Sleep, 850
+    Click, 812, 392 Left, 1  ; Build Divgen
+    Sleep, 23000
+    Click, 821, 685 Left, 1  ; Speed
+    Sleep, 116000
+    Click, 815, 651 Left, 1  ; Gain
+    Sleep, 15000
+    Loop, 8
+    {
+        Click, 550, 215 Left, 1  ; Start loop - Create Screen
+        Sleep, 850
+        Click, 909, 463 Left, 1
+        Sleep, 850
+        Click, 881, 498 Left, 1
+        Sleep, 850
+        Click, 755, 561 Left, 1
+        Sleep, 850
+        Click, 757, 221 Left, 1
+        Sleep, 850
+        Click, 893, 399 Left, 1
+        Sleep, 850
+        Click, 942, 265 Left, 1
+        Sleep, 850
+        Click, 866, 647 Left, 1
+        Sleep, 850
+        Click, 896, 402 Left, 1  ; Stop loop - Close add screen
+        Sleep, 2500
+    }
+    Click, 265, 212 Left, 1  ; GP tab - Possible loop
+    Sleep, 850
+    SendEvent, {Click, 760, 414, Left Down}{Click, 864, 414, Left Up}  ; Mystic Boni
+    Sleep, 850
+    Click, WheelDown, 20
+    Sleep, 850
+    Click, 796, 595 Left, 1  ; 1gp div choice
+    Sleep, 850
+    Click, 136, 537 Left, 1  ; Confirm 1gp Div
+    Sleep, 850
+    SendEvent, {Click, 974, 623, Left Down}{Click, 973, 236, Left Up}
+    Sleep, 850
+    Click, 263, 225 Left, 1  ; Exit gp tab
+    Sleep, 850
+    Click, 376, 177 Left, 1  ; BUILD
+    Sleep, 850
+    Click, 640, 216 Left, 1  ; Monuments
+    Sleep, 850
+    Click, 557, 311 Left, 1  ; Stop after finish
+    Sleep, 850
+    Click, 850, 499 Left, 1  ; + Godly Statue 
+    Sleep, 55000
+    Click, 377, 220 Left, 1  ; SPECIAL FIGHTS - FIGHT
+    Sleep, 800
+    Click, 754, 221 Left, 1  ; Special
+    Sleep, 800
+    Click, 739, 450 Left, 1  ; Auto
+    Sleep, 800
+    Loop, 45
+    {
+        Click, 857, 400 Left, 1
+        Sleep, 7
+        Click, 433, 487 Left, 1
+        Sleep, 650
+        Click, 597, 483 Left, 1
+        Sleep, 650
+        Click, 585, 361 Left, 1
+        Sleep, 7
+    }
+    Click, 379, 264 Left, 1  ; Flee
+    Sleep, 800
+    Click, 739, 450 Left, 1  ; SPECIAL FIGHTS - Auto
+    Sleep, 800
+    Click, 643, 218 Left, 1  ; Gods tab
+    Sleep, 850
+    Loop, 30
+    {
+        Click, 816, 318 Left, 1
+        Sleep, 120
+    }
+    Click, 376, 177 Left, 1  ; BUILD
+    Sleep, 850
+    Click, 540, 218 Left, 1  ; Create
+    Sleep, 850
+    Click, 610, 565, 0
+    Sleep, 850
+    Click, WheelDown, 2
+    Sleep, 850
+    Click, 825, 667 Left, 1  ; Nation
+    Sleep, 850
+    Click, 929, 304 Left, 1  ; Creation Auto buy
+    Sleep, 23500
+    Click, 929, 304 Left, 1  ; Creation Auto buy
+    Sleep, 850
+    Click, 644, 220 Left, 1  ; Monuments
+    Sleep, 850
+    Click, 918, 497 Left, 1  ; - Clones GS
+    Sleep, 850
+    Click, 848, 534 Left, 1  ; + GS Upgrade
+    Sleep, 25000
+    Click, 920, 538 Left, 1  ; - Clones GS Upgrade
+    Sleep, 1250
+    Click, 843, 497 Left, 1  ; + Godly Statue
+    Sleep, 850
+    Click, 444, 219 Left, 1  ; OTHER
+    Sleep, 850
+    Click, 537, 225 Left, 1  ; Statistics
+    Sleep, 850
+    Click, 202, 305 Left, 1  ; REBIRTH
+    Sleep, 2400
+    Sleep, 300000
+    Click, 265, 212 Left, 1  ; GP tab - Possible loop
+    Sleep, 850
+    SendEvent, {Click, 764, 405, Left Down}{Click, 634, 404, Left Up}  ; No mystic boni
+    Sleep, 850
+    SendEvent, {Click, 668, 466, Left Down}{Click, 850, 465, Left Up}  ; max creating boni
+    Sleep, 850
+    Click, 263, 225 Left, 1  ; Exit gp tab
+    Sleep, 850
+    Click, 384, 215 Left, 1  ; FIGHT
+    Sleep, 850
+    Click, 643, 218 Left, 1  ; Gods tab
+    Sleep, 850
+    Loop, 30
+    {
+        Click, 816, 318 Left, 1
+        Sleep, 120
+    }
+}
+Return
+
+
+Backspace::ExitApp
+
++p::Pause
