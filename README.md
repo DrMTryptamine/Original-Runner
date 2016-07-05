@@ -8,3 +8,6 @@
 ; In the GOD POINTS screen	Boni can be in MYSTIC or NOTHING
 
 If these criteria are not met, the script will not function properly
+
+The timings in this script are set for 
+500k clones - 30 CC - 4380 bs 
